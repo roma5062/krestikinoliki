@@ -33,4 +33,9 @@ gap: 10px;
 
 .cell {
     border: 1px solid #000;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
