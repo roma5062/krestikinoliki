@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 0;
+
+    color: #ff9100;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    margin-top: 20px;
+
+    font-size: 56px;
+}
+
+#gameBoard {
+display: grid;
+grid-template-columns: repeat(3, 150px);
+grid-template-rows: repeat(3, 150px);
+gap: 10px;
+}
+
+.cell {
+    border: 1px solid #000;
+}
